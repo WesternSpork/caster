@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Run the forecast.sh script and capture its output
+output=$(/home/currington/Progs/Weather/forecast.sh)
+
+# Store the captured output in forecast.txt
+echo "$output" > forecast.txt
+
+# Optional: Display a message indicating that the forecast has been saved
