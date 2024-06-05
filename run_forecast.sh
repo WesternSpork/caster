@@ -35,7 +35,7 @@ fi
 
 # Play the forecast.mp3 using mpv
 #mpv forecast.mp3
-mpv --loop=inf
+mpv --loop=inf forecast.mp3
 
 # Cleanup temporary files
 rm forecast.wav
